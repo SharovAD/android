@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         if (inp1==res1 | inp2==res2 | inp3==res3) {
             TextView summa=findViewById(R.id.Summa1);
             summa.setText("Выйгрыш 10 монет");
-    }else if ((inp1==res1 & inp2==res2) |(inp1==res1 & inp3==res3) | inp2==res2 & inp3==res3){
+    }else if ((inp1==res1 & inp2==res2) |(inp1==res1 & inp3==res3) | (inp2==res2 & inp3==res3)){
             TextView summa=findViewById(R.id.Summa1);
             summa.setText("Выйгрыш 100 монет");
         }else if (inp1==res1 & inp2==res2 & inp3==res3){
